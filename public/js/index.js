@@ -20,7 +20,7 @@ const emailForm = document.querySelector("#emailForm")
 
 const toast = document.querySelector(".toast")
 
-const host = process.env.APP_BASE_URL;
+const host = "https://file---share.herokuapp.com/";
 const uploadURL = `${host}api/files`;
 const emailURL = `${host}api/files/send`;
 
