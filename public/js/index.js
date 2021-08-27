@@ -150,9 +150,9 @@ let toastTimer;
 
 const showToast = (msg)=>{
     toast.innerText = msg;
-    toast.style.transform=`translate(-50%,0)`
-        clearTimeout(toastTimer)
-     toastTimer = setTimeout(()=>{
-    toast.style.transform=`translate(-50%,-60px)`
+    toast.style.transform=`translate(-50%,-50px)`
+    clearTimeout(toastTimer)
+    toastTimer = setTimeout(()=>{
+    toast.style.transform=`translate(-50% , 60px)`
     },2000)
 }
