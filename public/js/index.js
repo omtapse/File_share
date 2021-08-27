@@ -20,7 +20,7 @@ const emailForm = document.querySelector("#emailForm")
 
 const toast = document.querySelector(".toast")
 
-const host = "http://localhost:3000/";
+const host = process.env.APP_BASE_URL;
 const uploadURL = `${host}api/files`;
 const emailURL = `${host}api/files/send`;
 
